@@ -76,13 +76,6 @@ echo "alias g='git'" >> .bash_aliases &&
 echo "alias gpush='git push'" >> .bash_aliases &&
 echo "alias gs='git status'" >> .bash_aliases &&
 
-# hg
-touch .hgrc &&
-rm .hgrc &&
-touch .hgrc &&
-echo "[ui]" >> .hgrc &&
-echo "username = $NAME <$EMAIL>" >> .hgrc &&
-
 # ruby
 sudo apt-fast install ruby-rvm &&
 sudo apt-fast --purge remove ruby-rvm &&
