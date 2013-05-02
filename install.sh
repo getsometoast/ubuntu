@@ -21,10 +21,6 @@ sudo add-apt-repository "deb http://linux.dropbox.com/ubuntu precise main" &&
 sudo apt-get update &&
 sudo apt-get install -y apt-fast &&
 
-# tray icons
-gsettings set com.canonical.Unity.Panel systray-whitelist "['Skype']" &&
-
-
 # remove
 sudo apt-fast remove -y rhythmbox tomboy gwibber thunderbird evolution nautilus-sendto ubuntuone-client empathy &&
 sudo apt-fast autoremove -y &&
