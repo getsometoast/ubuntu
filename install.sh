@@ -91,7 +91,3 @@ rm -R $HOME/.rvm &&
 \curl -L https://get.rvm.io |   bash -s stable --ruby --autolibs=enable --auto-dotfiles &&
 rvm reload &&
 rvm install 2.0.0 &&
-
-# hosts
-echo -e "192.168.0.1 router" | sudo tee -a /etc/hosts &&
-echo -e "192.168.0.4 xbmc"   | sudo tee -a /etc/hosts;
