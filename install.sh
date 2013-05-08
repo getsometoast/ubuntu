@@ -84,3 +84,7 @@ rm -R $HOME/.rvm &&
 \curl -L https://get.rvm.io |   bash -s stable --ruby --autolibs=enable --auto-dotfiles &&
 rvm reload &&
 rvm install 2.0.0 &&
+
+#java
+sudo apt-fast install openjdk-7-jre && 
+sudo apt-fast install icedtea-7-plugin && #for firefox java applets 
